@@ -1,6 +1,6 @@
 # Studico — Backend API
 
-Django backend for **Studico**, a social platform built exclusively for university students. Students verify their identity with an institutional email address, then connect with peers, communities, and events at their university.
+Django backend for **Studico**, a social platform built exclusively for university students. Students verify their identity with an institutional email address, then connect with peers, communities, and events across universities.
 
 Live at [teamstudico.com](https://www.teamstudico.com)
 
