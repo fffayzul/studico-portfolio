@@ -379,13 +379,13 @@ KINDE_USERINFO_URL = os.getenv('KINDE_USERINFO_URL')
 AXES_ONLY_ADMIN_SITE = True
 AXES_FAILURE_LIMIT = 3
 AXES_COOLOFF_TIME = 10  # hours
-AXES_LOCK_OUT_URL = '/niagarafalls/8ball/lockout/'
+AXES_LOCK_OUT_URL = 'its a secret :)'
 AXES_IPWARE_META_PRECEDENCE_ORDER = ['HTTP_X_FORWARDED_FOR', 'REMOTE_ADDR']
 
 # --- Admin panel: 2FA (django-otp) ---
 # Admin OTP is enforced by AdminOTPRequiredMiddleware; no global OTP middleware
 ADMIN_OTP_SESSION_KEY = 'admin_otp_verified'
-ADMIN_URL_PREFIX = '/niagarafalls/8ball'
+ADMIN_URL_PREFIX = 'its a secret :)'
 
 AUTHENTICATION_BACKENDS = [
     'axes.backends.AxesStandaloneBackend',
